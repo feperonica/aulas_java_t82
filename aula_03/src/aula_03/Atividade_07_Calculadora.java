@@ -16,7 +16,7 @@ public class Atividade_07_Calculadora {
         float numero2 = leia.nextFloat();
 
         // Código da operação
-        System.out.print("Escolha a Operação: 1-Soma, 2-Subtração, 3-Multiplicação e 4-Divisão: ");
+        System.out.print("Escolha a Operação:\n1-Soma \n2-Subtração \n3-Multiplicação \n4-Divisão \n");
         int operacao = leia.nextInt();
 
         // Switch para realizar a operação
@@ -32,7 +32,7 @@ public class Atividade_07_Calculadora {
                 break;
             case 4:
                 if (numero2 != 0) {
-                    System.out.printf("%.1f / %.1f = %.1f\n", numero1, numero2, (numero1 / numero2));
+                	System.out.printf("%.1f / %.1f = %.1f\n", numero1, numero2, (numero1 / numero2));
                 } else {
                     System.out.println("Erro: Divisão por zero!");
                 }
