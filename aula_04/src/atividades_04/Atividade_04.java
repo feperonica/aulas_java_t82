@@ -24,28 +24,28 @@ public class Atividade_04 {
             System.out.print("Pessoa Desenvolvedora (1 a 4): ");
             dev = leia.nextInt();
 
-            leia.nextLine(); // Limpa o buffer
+            leia.nextLine();
 
             // Atualiza totais
             totalPessoas++;
             somaIdades += idade;
 
-            // 1. Total de pessoas desenvolvedoras Backend
+            // 1 - Total de pessoas desenvolvedoras Backend
             if (dev == 1) {
                 backend++;
             }
 
-            // 2. Mulheres Cis (1) e Trans (4) desenvolvedoras Frontend (2)
+            // 2 - Mulheres Cis (1) e Trans (4) desenvolvedoras Frontend (2)
             if ((identidade == 1 || identidade == 4) && dev == 2) {
                 mulheresCisTransFrontend++;
             }
 
-            // 3. Homens Cis (2) e Trans (5) desenvolvedores Mobile (3) maiores de 40 anos
+            // 3 - Homens Cis (2) e Trans (5) desenvolvedores Mobile (3) maiores de 40 anos
             if ((identidade == 2 || identidade == 5) && dev == 3 && idade > 40) {
                 homensCisTransMobile40++;
             }
 
-            // 4. Não Binário (3) desenvolvedores FullStack (4) menores de 30 anos
+            // 4 - Não Binário (3) desenvolvedores FullStack (4) menores de 30 anos
             if (identidade == 3 && dev == 4 && idade < 30) {
                 nBinarioFullstackMenor30++;
             }

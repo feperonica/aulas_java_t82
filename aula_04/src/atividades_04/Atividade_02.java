@@ -14,7 +14,7 @@ public class Atividade_02 {
 		for(int i = 1; i <= 10; i++) {
 			System.out.print("Digite o "+ i +"º numero: ");
 			numero = leia.nextInt();
-			
+		//Validação	
 			if (numero % 2 == 0) {
 				pares++;
 			}else {

@@ -10,16 +10,17 @@ public class Atividade_06 {
         //Variaveis
         int numero, soma = 0, contador = 0;
        
-        //Entrada dos dados e validação
+        //Entrada dos dados
         do {
             System.out.print("Digite um número: ");
             numero = leia.nextInt();
-
+            
+       //Verificação e soma
             if (numero != 0 && numero % 3 == 0) {
                 soma += numero;
                 contador++;
             }
-
+        //Validação
         } while (numero != 0);
 
         //Resultados
