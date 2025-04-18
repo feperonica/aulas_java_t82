@@ -29,7 +29,7 @@ public class Cinema {
 		}
 		
 		System.out.println("Assentos ocupados: " + ocupadas);
-		System.out.print("Soma dos Elementos da Diagonal Secundaria: ", 15);
+		System.out.println("Assentos livres: " + livres);
 	}
 
 }
