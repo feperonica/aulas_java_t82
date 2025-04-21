@@ -32,7 +32,7 @@ public class Atividade_04 {
 		for (int notas = 0; notas < medias.length; notas++) {
 		    System.out.printf("%.1f ", medias[notas]);
 		}
-		
+		leia.close();
 	}
 
 }
