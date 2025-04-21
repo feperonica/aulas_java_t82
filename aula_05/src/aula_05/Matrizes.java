@@ -13,7 +13,7 @@ public class Matrizes {
 		
 		Float matrizReal[][] = new Float[3][3];
 		
-		/*for(int linha = 0; linha < matrizInteiros.length; linha++) {
+		for(int linha = 0; linha < matrizInteiros.length; linha++) {
 			for(int coluna = 0; coluna < matrizInteiros.length; coluna ++) {
 				System.out.printf("\n matrizInteiros[%d][%d] = %d", linha, coluna, matrizInteiros[linha][coluna]);
 			}
@@ -31,14 +31,14 @@ public class Matrizes {
 				System.out.println("Exibir a posição atual" + valor);
 			}
 			
-		}*/
+		}
 		
-
+		/*
 		for(int linha = 0; linha < matrizInrregular.length; linha++) {
 			for(int coluna = 0; coluna < matrizInrregular[linha].length; coluna ++) {
 				System.out.printf("\n matrizInteiros[%d][%d] = %d", linha, coluna, matrizInrregular[linha][coluna]);
 			}
-		}
+		}*/
 		
 	}
 
