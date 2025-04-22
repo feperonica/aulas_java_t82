@@ -10,7 +10,6 @@ public class Atividade_04 {
 		Float matrizNotas[][] = new Float[10][4]; // indice 10 a 4
 		float medias[] = new float[10]; // 10 alunos
 		//Variavel
-	    
 		
 	    //Digitando a nota dos alunos
 		for (int linha = 0; linha < matrizNotas.length; linha++) {
