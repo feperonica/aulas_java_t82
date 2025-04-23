@@ -27,7 +27,7 @@ public class Atividade_03 {
         // Usa Iterator para percorrer o Set
         Iterator<Integer> inumeros = numeros.iterator();
         
-        // Loop que percorre os elementos do Set e imprimir um por um
+        // Loop para percorrer os elementos do Set e imprimir um por um
         System.out.println("Listar dados do Set:");
         while (inumeros.hasNext()) {
             System.out.println(inumeros.next());
